@@ -5,8 +5,8 @@ import YTSearch from 'youtube-api-search';
 import VideoList from './components/video_list'
 import VideoDetail from './components/video_detail'
 import _ from 'lodash'
-const API_KEY = 'AIzaSyCJWosae5aDx_-vShLh5G59WQ2SOr3Y49Q';
-YTSearch({key: 'AIzaSyCJWosae5aDx_-vShLh5G59WQ2SOr3Y49Q', term: 'Algorithms MIT'}, function(data) {
+const API_KEY = 'API_KEY';
+YTSearch({key: API_KEY, term: 'Algorithms MIT'}, function(data) {
     console.log(data)
 })
 class App extends React.Component {
